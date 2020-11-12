@@ -304,7 +304,7 @@ a:hover {
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
-    display: inline;
+    display: inline-block;
 }
 
 .navbar-brand img[src$=svg] {
@@ -325,7 +325,8 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+	font-size: 16px;
+	margin-right:10px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -357,7 +358,7 @@ a:hover {
 
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
-    float: right;
+    float: lef;
     position: relative;
     z-index: 2;
 }
@@ -365,14 +366,15 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
-        right: 20px;
+        top: 40%;
+        right: 5%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+		color: #484848;
+		
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -388,7 +390,7 @@ a:hover {
     .nav-center .navbar-brand,
     .nav-center .nav > li {
         float: none;
-        display: inline-block;
+		display: inline-block;
     }
     .nav-center .site-navigation {
         position: relative;
@@ -450,7 +452,7 @@ nav .caret {
 }
 
 .btn.pull-right {
-    margin: 0 0 5px 5px;
+    margin: 0 50p 5px 5px;
 }
 
 .btn-d,
@@ -516,7 +518,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+	visibility: hidden;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -655,7 +657,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 95%;
 }
 
 .hero-bloc-text {
@@ -784,7 +786,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #DF3601!important;
     color: #FFFFFF!important;
 }
 
@@ -801,7 +803,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color:  #DF3601!important;
 }
 
 .icon-dark-slate-blue {
@@ -841,10 +843,10 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 60%;
     }
     .nav-center.navbar .nav {
-        max-width: 100%
+        max-width: 100%;
     }
 }
 
@@ -909,7 +911,7 @@ h4 {
         background-attachment: scroll;
     }
     .navbar .nav {
-        padding-top: 0;
+        padding-top: 20%0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
@@ -928,7 +930,6 @@ h4 {
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
-        padding-left: 15px;
         width: 100%;
     }
     .nav > li:hover {
@@ -956,7 +957,7 @@ h4 {
         right: -1px;
     }
     .navbar-collapse {
-        padding: 0;
+		padding: 0;
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
@@ -1028,7 +1029,7 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
