@@ -610,12 +610,12 @@ body {
 	max-width : 100%;
 	}
 	}
-	@media only screen and (device-width) and (device-width) and (orientation: landscape) {
+	@media only screen and (orientation: landscape) {
 	.b-parallax {
 	background-attachment : scroll;
 	}
 	}
-	@media only screen and (device-width) and (device-width) {
+	@media only screen {
 	.b-parallax {
 	background-attachment : scroll;
 	}
