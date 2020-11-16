@@ -221,6 +221,10 @@ body {
 	right : 5%;
 	transform : translate(0,-50%);
 	}
+	.text-center{
+	
+		font-size: 1.5em;
+		}
 	.nav > li .dropdown-menu a, .nav > li .dropdown-menu a:hover {
 	color : #484848;
 	}
@@ -280,6 +284,7 @@ body {
 	.mg-md {
 	margin-top : 10px;
 	margin-bottom : 20px;
+	
 	}
 	.mg-lg {
 	margin-top : 10px;
